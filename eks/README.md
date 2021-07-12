@@ -36,4 +36,4 @@ http://127.0.0.1:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kube
 
 * Generate Auth token
 
-      $ kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep service-controller-token | awk '{print $1}'
+      $ kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep service-controller-token | awk '{print $1}')
